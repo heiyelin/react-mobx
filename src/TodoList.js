@@ -1,6 +1,8 @@
 import React from 'react';
-import { observer } from 'mobx-react';
+import { observer, inject } from 'mobx-react';
 
+
+@inject('todoStore')
 @observer
 class TodoList extends React.Component {
   constructor(props) {

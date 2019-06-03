@@ -1,5 +1,5 @@
-import TodoStore from './todo'
+import todoStore from './todo'
 
 export default {
-  todoStore: TodoStore
+  todoStore
 }
